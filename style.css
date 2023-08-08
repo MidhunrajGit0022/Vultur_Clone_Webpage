@@ -30,6 +30,16 @@
       background-color: #450a9ff6;
   }
 
+  .hsearch{
+    background-color:#ececec!important ;
+    width: 250px;
+    color: #60974c;
+}
+
+.htsearch{
+  background-color:#ececec!important ;
+}
+
   .button-3{
     background-color: #F8F9FA;
     font-family: Phantomsans, sans-serif;
@@ -134,7 +144,7 @@
   0px 1px 0px rgba(0, 0, 0, 0.398),   /* Bottom shadow */
   0px -1px 0px rgba(0, 0, 0, 0.398);  /* Top shadow */
   opacity: 1 ;
-  margin-bottom: -35px;
+  margin-bottom: -40px;
 }
 
 
@@ -143,6 +153,7 @@
   font-size: 30px;
   color: #005a87;
   margin-top: -60px;
+  margin-left: 35px;
 }
 
 .trend{
@@ -173,7 +184,7 @@ div.trendh {
 
 .flip-card {
   background-color: transparent;
-  width: 280px;
+  /* width: 280px; */
   height: 280px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* 3D effect */
@@ -204,13 +215,14 @@ div.trendh {
 .flip-card-front {
   background-color: #bbb;
   color: black;
-  
+  background-position: center center;
 }
 
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+  background-position: center center;
 }
 
 .cardbutton-2{
@@ -294,14 +306,16 @@ div.trendh {
 
 .carousel-control-prev{
   /* position: absolute; */
-  bottom: -330px;
-  left: 370px;
+  /* bottom: -330px;
+  left: 370px; */
+  margin-top: 15rem;
+  margin-left: 20rem;
 }
 
 .carousel-control-next{
   /* position: absolute; */
-  bottom: -330px;
-  right: 750px;
+  margin-top: 15rem;
+  margin-right: 50rem;
 }
 
 
@@ -585,7 +599,7 @@ div.trendh {
 }
 
 .nav-arrow i{
-  transition: all 0.4s ease;
+  transition: all 0.9s ease;
 }
 
 .nav-arrow:hover i{
@@ -609,4 +623,3 @@ div.trendh {
     background-repeat: no-repeat no-repeat;
     z-index: 1;
 }
-
