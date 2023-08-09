@@ -666,3 +666,40 @@ div.trendh {
   line-height: 3rem;
   color: #403b66;
 }
+
+.coursesearch{
+  background-color:#ececec!important ;
+  width: 350px;
+  color: #60974c;
+  margin-left: 160px;
+  line-height: 23px;
+  font-size: 16px;
+
+}
+
+.popular{
+  margin-top: 150px;
+}
+
+.popular1{
+  font-size: 4vw;
+  /* justify-content: center; */
+  margin-left: 160px;
+}
+
+.cul{
+  font-weight: 650;
+  line-height: 3rem;
+  color: #403b66;
+}
+
+.email{
+  line-height: 2rem;
+}
+
+.bread{
+  font-size: 15px;
+  text-align: center;
+  /* font-weight: 700; */
+  line-height: 2em;
+}
