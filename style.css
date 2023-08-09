@@ -65,8 +65,8 @@
 
 .title-1{
   font-size: 4vw;
-  justify-content: center;
-  margin-left: 160px;
+  /* justify-content: center; */
+  margin-left: 70px;
 }
 
 .para{
@@ -622,4 +622,47 @@ div.trendh {
     background-position: center center;
     background-repeat: no-repeat no-repeat;
     z-index: 1;
+}
+
+.subtitle-2{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.title-2{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.onlinehead{
+  margin-top: 150px;
+}
+
+.desktop{
+  -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background: #20ad95;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 24.8px 3.2px rgba(107, 108, 109, .1);
+    box-shadow: 0 0 24.8px 3.2px rgba(107, 108, 109, .1);
+}
+
+.skills{
+  font-weight: 900;
+  color: #403b66;
+}
+
+.skillsp{
+  text-align: center;
+}
+
+.transform{
+  font-weight: 900;
+  line-height: 3rem;
+  color: #403b66;
 }
